@@ -1,0 +1,27 @@
+%message-shared {
+    border: 5px solid #ccc;
+    padding: 10px;
+    color: #333;
+    margin-top: 15px;
+    width: 350px;
+    margin-left: 15px;
+}
+
+.toast_message {
+    @extend %message-shared;
+}
+
+.toast_success {
+    @extend %message-shared;
+    border-color: green;
+}
+
+.toast_error {
+    @extend %message-shared;
+    border-color: red;
+}
+
+.toast_warning {
+    @extend %message-shared;
+    border-color: yellow;
+}
